@@ -1,0 +1,257 @@
+{
+    "genetic_data": [
+        {
+            "title": "Vitamins & Minerals",
+            "icon": "🧬",
+            "focus": "Micronutrients",
+            "data": [
+                {
+                    "Gene": "BCO1"
+                },
+                {
+                    "Gene": "NBPF3"
+                },
+                {
+                    "Gene": "MTHFR"
+                },
+                {
+                    "Gene": "FUT2"
+                },
+                {
+                    "Gene": "SLC23A1"
+                },
+                {
+                    "Gene": "VDR & GC"
+                },
+                {
+                    "Gene": "INTERGENIC"
+                },
+                {
+                    "Gene": "VKORC1"
+                },
+                {
+                    "Gene": "VDR & GC"
+                },
+                {
+                    "Gene": "MECOM & BRWD1P2"
+                },
+                {
+                    "Gene": "TMPRSS6"
+                }
+            ]
+        },
+        {
+            "title": "Dietary Fats & Carbohydrates",
+            "icon": "🥑",
+            "focus": "Macronutrients",
+            "data": [
+                {
+                    "Gene": "PPARG"
+                },
+                {
+                    "Gene": "APOA2"
+                },
+                {
+                    "Gene": "ADIPOQ"
+                },
+                {
+                    "Gene": "FADS1"
+                },
+                {
+                    "Gene": "FADS1 & FADS2"
+                }
+            ]
+        },
+        {
+            "title": "Food Sensitivities & Metabolism",
+            "icon": "🌾",
+            "focus": "Intolerance",
+            "data": [
+                {
+                    "Gene": "LCT & MCM6"
+                },
+                {
+                    "Gene": "CYP1A2"
+                },
+                {
+                    "Gene": "ACE & AGT"
+                },
+                {
+                    "Gene": "HLADQ 2.2 & HLADQ 2.5"
+                }
+            ]
+        },
+        {
+            "title": "Body Composition & Weight",
+            "icon": "⚖",
+            "focus": "Obesity Risk",
+            "data": [
+                {
+                    "Gene": "FTO"
+                },
+                {
+                    "Gene": "PLIN & MC4R"
+                },
+                {
+                    "Gene": "FTO, PLIN & APOA2"
+                },
+                {
+                    "Gene": "FTO & PPARG"
+                },
+                {
+                    "Gene": "PPARG"
+                }
+            ]
+        },
+        {
+            "title": "Fitness & Exercise Response",
+            "icon": "🏋",
+            "focus": "Performance",
+            "data": [
+                {
+                    "Gene": "INSIG2"
+                },
+                {
+                    "Gene": "PPARGC1A, VEGFA,ADRB2 & AKT1"
+                },
+                {
+                    "Gene": "PPARD"
+                },
+                {
+                    "Gene": "ADRB2"
+                },
+                {
+                    "Gene": "ADRB2"
+                },
+                {
+                    "Gene": "ACE"
+                },
+                {
+                    "Gene": "AGT"
+                },
+                {
+                    "Gene": "PPARA"
+                },
+                {
+                    "Gene": "IL6"
+                },
+                {
+                    "Gene": "ACTN3"
+                },
+                {
+                    "Gene": "NOS3"
+                },
+                {
+                    "Gene": "ACE"
+                },
+                {
+                    "Gene": "PPARA"
+                },
+                {
+                    "Gene": "ADRB2"
+                },
+                {
+                    "Gene": "NRF2"
+                }
+            ]
+        },
+        {
+            "title": "Injury & Recovery",
+            "icon": "🩹",
+            "focus": "Risk & Healing",
+            "data": [
+                {
+                    "Gene": "IL6"
+                },
+                {
+                    "Gene": "ESR1"
+                },
+                {
+                    "Gene": "CRP"
+                },
+                {
+                    "Gene": "MMP3"
+                },
+                {
+                    "Gene": "COL1A1"
+                }
+            ]
+        },
+        {
+            "title": "Behavioral Traits",
+            "icon": "🧠",
+            "focus": "Eating & Taste",
+            "data": [
+                {
+                    "Gene": "ANKK1/DRD2"
+                },
+                {
+                    "Gene": "LEPR"
+                },
+                {
+                    "Gene": "FGF21"
+                },
+                {
+                    "Gene": "TAS2R38(1) & TAS2R38(2)"
+                },
+                {
+                    "Gene": "FTO"
+                },
+                {
+                    "Gene": "HIF1A & ACE"
+                }
+            ]
+        },
+        {
+            "title": "Lipid & Cholesterol Profile",
+            "icon": "🫀",
+            "focus": "Heart Health",
+            "data": [
+                {
+                    "Gene": "LIPC"
+                },
+                {
+                    "Gene": "APOE"
+                },
+                {
+                    "Gene": "APOA5"
+                },
+                {
+                    "Gene": "GCKR"
+                },
+                {
+                    "Gene": "CETP & LIPC"
+                }
+            ]
+        },
+        {
+            "title": "Insulin & Glucose",
+            "icon": "🩸",
+            "focus": "Diabetes Risk",
+            "data": [
+                {
+                    "Gene": "TCF7L2 & FTO"
+                }
+            ]
+        },
+        {
+            "title": "Detoxification & Oxidative Stress",
+            "icon": "🧪",
+            "focus": "Toxin Clearance",
+            "data": [
+                {
+                    "Gene": "CYP1A1 & CYP1B1"
+                },
+                {
+                    "Gene": "UGT1A1,GSTP1, GSTA1, NQO1, COMT, NAT2 & PON1"
+                },
+                {
+                    "Gene": "SOD2, GPX1 & NQO1"
+                },
+                {
+                    "Gene": "SOD2"
+                }
+            ]
+        }
+    ]
+}

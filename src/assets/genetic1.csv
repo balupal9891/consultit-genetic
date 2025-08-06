@@ -1,0 +1,64 @@
+Condition name,Gene,Response
+Vitamin A,BCO1,Bad
+Vitamin B6,NBPF3,Average
+Vitamin B9,MTHFR,Average
+Vitamin B12,FUT2,Good
+Vitamin C,SLC23A1,Good
+Vitamin D,VDR & GC,Good
+Calcium,VDR & GC,Average
+Vitamin E,INTERGENIC,Bad
+Vitamin K,VKORC1,Good
+Magnesium,MECOM & BRWD1P2,Good
+Iron,TMPRSS6,Bad
+Omega-3,FADS1 & FADS2,Bad
+Carbohydrate,PPARG,Good
+Saturated Fats,APOA2,Good
+Mono Unsaturated Fats (MUFA),ADIPOQ,Good
+Poly Unsaturated Fats (PUFA),FADS1,Bad
+Lactose Intolerance,LCT & MCM6,Average
+Caffeine Sensitivity,CYP1A2,Average
+Salt Sensitivity,ACE & AGT,Bad
+Gluten Intolerance,HLADQ 2.2 & HLADQ 2.5,Good
+BMI And Waist Circumfrence,FTO,Good
+Response to Strength/Resistance Training,INSIG2,Bad
+Adernaline Response,ADRB2,Good
+Fat Metabolism,ADRB2,Average
+HDL Cholestrol Response,LIPC,Average
+Power Profile,ACE,Deletion
+Power Profile,AGT,Average
+Power Profile,PPARA,Average
+Power Profile,IL6,Good
+Power Profile,ACTN3,Average
+Power Profile,NOS3,Average
+Endurance Profile,ACE,Deletion
+Endurance Profile,PPARA,Average
+Endurance Profile,ADRB2,Bad
+Endurance Profile,NRF2,Bad
+Aerobic Capacity,"PPARGC1A, VEGFA,ADRB2 & AKT1",Bad
+Anaerobic Capacity,PPARD,Bad
+Injury Risk,IL6,Good
+Muscle Injury,ESR1,Average
+Recovery,CRP,Bad
+Achilles Tendinopathy Risk,MMP3,Bad
+Oxidative Stress (IR),SOD2,Bad
+Ligament Rupture Risk,COL1A1,Bad
+Pre Disposition to Obesity,"FTO, PLIN & APOA2",Good
+Response to Dieting,ADRB2,Average
+Adiponectin Levels,ADIPOQ,Good
+Waist Circumfrence Responses,PLIN & MC4R,Average
+Weight Regain Risk,FTO & PPARG,Good
+Cellulite Pre-Disposition,HIF1A & ACE,Average
+FAT Storage,PPARG,Bad
+Eating Behaviour Trait,ANKK1/DRD2,Good
+Sweet Perception,FGF21,Good
+Bitter Taste Perception,TAS2R38(1) & TAS2R38(2),Average
+Satiety,FTO,Good
+Snacking Behaviour,LEPR,Bad
+Elevated LDL,APOE,Average
+Elevated Triglycerides,APOA5,Average
+Higher Serum Triglycerides,GCKR,Average
+Higher HDL Cholestrol,CETP & LIPC,Average
+Insulin Sensitivity,TCF7L2 & FTO,Good
+Detoxification Phase 1,CYP1A1 & CYP1B1,Good
+Detoxification Phase 2,"UGT1A1,GSTP1, GSTA1, NQO1, COMT, NAT2 & PON1",Average
+Oxidative Stress,"SOD2, GPX1 & NQO1",Average
