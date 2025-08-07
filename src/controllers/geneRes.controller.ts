@@ -14,7 +14,7 @@ export class geneticResController {
             }
             return res.status(200).json({
                 message: 'Successfully fetched genetic data',
-                data: geneticData
+                data: geneticData.genetic_data
             });
         } catch (error) {
             if (error instanceof Error) {
