@@ -185,4 +185,7 @@ async  getGeneticConditions(req: any, res: Response, next: NextFunction) {
     }
 }
 
+
+
+
 }
