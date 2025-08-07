@@ -1,5 +1,6 @@
 import fs from 'fs';
 import csv from 'csv-parser';
+import { GeneticCondition } from './addGeneticResponse';
 
 
 async function parseCsv(csvFilePath: string): Promise<any> {
@@ -30,5 +31,26 @@ async function parseCsv(csvFilePath: string): Promise<any> {
     });
 }
 
+// helper/parseCsvFromString.ts
+import { parse } from 'csv-parse/sync';
 
-export {parseCsv};
+const keyMap: Record<string, keyof GeneticCondition> = {
+  'condition name': 'condition',
+  'gene': 'gene',
+  'response': 'response'
+};
+
+export function parseCsvFromString(content: string): GeneticCondition[] {
+  return parse(content, {
+    columns: (headers: string[]) =>
+      headers.map(h => {
+        const cleaned = h.trim().toLowerCase();
+        return keyMap[cleaned] ?? cleaned; // fallback to raw key
+      }),
+    skip_empty_lines: true,
+    trim: true
+  });
+}
+
+
+export { parseCsv };

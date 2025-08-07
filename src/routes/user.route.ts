@@ -12,8 +12,7 @@ const userRoute = Router();
 
 userRoute.get('/info',(req, res, next)=> authenticateUser(req, res, next), (req, res, next)=> userCntrl.getUserProfile(req, res, next));
 userRoute.patch('/update',(req, res, next) => authenticateUser(req, res, next), (req, res, next)=> userCntrl.updateUser(req, res, next));
-userRoute.post('/genetic-conditions',upload.single('file'),(req, res, next) => authenticateUser(req, res, next), (req, res, next) => userCntrl.getGeneticConditions(req, res, next));
-
+userRoute.post('/genetic-conditions',(req, res, next) => authenticateUser(req, res, next),upload.single('file'), (req, res, next) => userCntrl.getGeneticConditions(req, res, next));
 
 
 export {userRoute};

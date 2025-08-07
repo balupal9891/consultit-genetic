@@ -1,5 +1,5 @@
 
-interface GeneticCondition {
+export interface GeneticCondition {
     condition: string;
     gene: string;
     response: string;
@@ -31,6 +31,7 @@ export function enrichGeneticDataWithResponses(
     const responseMap: Record<string, GeneticCondition> = {};
 
     for (const res of responses) {
+        console.log('Response:', res);
         if (res.gene) {
             responseMap[res.gene.trim().toLowerCase()] = res;
         }
